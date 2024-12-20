@@ -1,0 +1,13 @@
+fastapi==0.95.1
+uvicorn==0.22.0
+langchain==0.0.350
+ollama==0.1.5
+redis==4.5.4
+pillow==9.5.0
+streamlit==1.22.0
+requests==2.30.0
+openai==0.27.7
+diffusers==0.19.3
+transformers==4.35.2
+torch==2.1.1
+python-multipart==0.0.6

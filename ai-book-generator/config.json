@@ -1,0 +1,54 @@
+{
+    "ollama": {
+        "url": "http://localhost:11434",
+        "model": "llama3.2",
+        "default_model": "llama3.2"
+    },
+    "stable_diffusion": {
+        "url": "http://localhost:7860",
+        "local_mode": true,
+        "default_model": "stabilityai/stable-diffusion-xl-base-1.0"
+    },
+    "art_styles": {
+        "genres": {
+            "fantasy": [
+                "Ethereal watercolor with soft, magical edges",
+                "Detailed fantasy illustration with rich, vibrant colors",
+                "Mystical landscape with dreamlike qualities"
+            ],
+            "sci-fi": [
+                "Cyberpunk digital art with neon accents",
+                "Minimalist futuristic design with sharp lines",
+                "Retro-futuristic illustration with metallic textures"
+            ],
+            "romance": [
+                "Soft pastel watercolor with romantic overtones",
+                "Impressionist-style painting with gentle color palette",
+                "Vintage illustration with delicate line work"
+            ],
+            "mystery": [
+                "Noir-inspired shadowy illustration",
+                "Moody, desaturated color palette with high contrast",
+                "Surreal, enigmatic artistic rendering"
+            ],
+            "adventure": [
+                "Dynamic, action-packed illustration style",
+                "Bold, expressive brushstrokes capturing movement",
+                "Vintage travel poster inspired artwork"
+            ]
+        },
+        "custom_styles": {
+            "watercolor": "Soft, blended watercolor technique with translucent layers",
+            "comic_book": "Bold lines, vibrant colors, and graphic novel aesthetic",
+            "minimalist": "Clean, simplified design with maximum negative space",
+            "pixel_art": "Retro 8-bit or 16-bit game-inspired illustration",
+            "anime": "Japanese animation style with large expressive eyes and stylized features"
+        }
+    },
+    "generation_settings": {
+        "max_chapters": 10,
+        "illustration_per_chapter": true,
+        "default_language": "pt",
+        "creativity_level": 0.7
+    }
+}
